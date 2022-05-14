@@ -90,13 +90,14 @@ function setup() {
 	}
 
 	start = false;
+if (mobileCheck() || detectMob()) {
+		return alert("This application is not supported on mobile device, kindly use a laptop!")
+	}
 }
 
 
 function draw() {
-	if (mobileCheck() || detectMob()) {
-		return alert("This application is not supported on mobile device, kindly use a laptop!")
-	}
+	
 	background(100, 155, 255); // fill the sky blue
 
 	noStroke();
