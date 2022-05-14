@@ -91,7 +91,7 @@ function setup() {
 
 	start = false;
 if (mobileCheck() || detectMob()) {
-		return alert("This application is not supported on mobile device, kindly use a laptop!")
+	 alert("This application is not supported on mobile device, kindly use a laptop!")
 	}
 }
 
